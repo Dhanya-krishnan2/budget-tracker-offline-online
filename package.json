@@ -1,0 +1,26 @@
+{
+  "name": "offline-online-budget-tracker",
+  "version": "1.0.0",
+  "description": "",
+  "main": "service.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dhanya-krishnan2/budget-tracker-offline-online.git"
+  },
+  "author": "Dhanya",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Dhanya-krishnan2/budget-tracker-offline-online/issues"
+  },
+  "homepage": "https://github.com/Dhanya-krishnan2/budget-tracker-offline-online#readme",
+  "dependencies": {
+    "compression": "^1.7.4",
+    "express": "^4.17.1",
+    "mongodb": "^3.6.1",
+    "mongoose": "^5.10.3",
+    "morgan": "^1.10.0"
+  }
+}
