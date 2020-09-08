@@ -10,7 +10,7 @@ app.use(compression());
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 app.use(express.static("public"));
-mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/budget", { useNewUrlParser: true, useFindAndModify: false });
+mongoose.connect(process.env.MONGODB_URI || "mongodb+srv://Dhanya:Ahalyamol14*@offline.2to7l.mongodb.net/<dbname>?retryWrites=true&w=majority", { useNewUrlParser: true, useFindAndModify: false });
 
 
 
